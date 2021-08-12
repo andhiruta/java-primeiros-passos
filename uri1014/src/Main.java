@@ -15,7 +15,9 @@ public class Main {
 		consumo = dist / gas;
 		
 		System.out.printf("%.3f km/l%n", consumo);
-
+		
+		
+		sc.close();
 	}
 
 }
